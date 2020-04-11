@@ -1,0 +1,67 @@
+gametitle=Syphon Filter: The Omega Strain Demo
+comment=by YukiXXL
+
+//E3_BUILD=1
+patch=1,EE,207EE063,byte,31
+
+//BOOT_FRONTEND=1
+patch=1,EE,207EE219,byte,31
+
+//BOOT_INVULNERABLE=1
+patch=1,EE,207EE240,byte,31
+
+//USE_VALID_LEVELS=1
+//patch=1,EE,207EE12C,byte,31
+
+//SEQUENTIAL_LEVELS=1
+//patch=1,EE,207EE078,byte,31
+
+//RESTRICT_LEVELS=1
+//patch=1,EE,207EE08B,byte,31
+
+//Enable online lobby
+patch=1,EE,2034EFE4,word,24A54C50
+patch=1,EE,2034EFEC,word,24C64C68
+
+patch=1,EE,2033FA6C,word,24A53980
+patch=1,EE,2033FA74,word,24C63998
+
+//Enable LAN button
+patch=1,EE,20340064,word,0060802d
+patch=1,EE,204E5D18,byte,0
+
+//0 = Offline; 1 = Online
+//patch=1,EE,20537C8D,byte,0
+
+//Enable Mission Setup
+patch=1,EE,20338e50,word,00000000
+patch=1,EE,20343aa4,word,00000000
+//Enable Join Mission
+patch=1,EE,20339fa8,word,00000000
+//patch=1,EE,20338f88,word,00000000
+
+//CHEATS!
+//Missions Completed
+patch=1,EE,2082D724,word,01010101
+
+//Headshots Ratings
+patch=1,EE,2082D714,word,000001F4
+patch=1,EE,2082D6E0,word,00000258
+
+//Knife kills 500
+patch=1,EE,2082D6DC,word,000001F4
+
+//Grenade kills 500
+patch=1,EE,2082D6E8,word,000001F4
+
+//Non-Lethal 500
+patch=1,EE,2082D6F0,word,000001F4
+
+//800 kills
+patch=1,EE,2082D6D8,word,00000320
+
+//All objectives
+patch=1,EE,2082D74C,word,FFFFFFFF
+patch=1,EE,2082D750,word,FFFFFFFF
+patch=1,EE,2082D754,word,FFFFFFFF
+patch=1,EE,2082D758,word,FFFFFFFF

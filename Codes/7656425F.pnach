@@ -1,0 +1,69 @@
+gametitle=Official U.S. Playstation Magazine #77
+comment=by YukiXXL for Syphon Filter: The Omega Strain
+
+//E3_BUILD=1
+patch=1,EE,207EE303,byte,31
+
+//BOOT_FRONTEND=1
+patch=1,EE,207EE4B9,byte,31
+
+//BOOT_INVULNERABLE=1
+patch=1,EE,207EE4E0,byte,31
+
+//USE_VALID_LEVELS=1
+//patch=1,EE,207EE3CC,byte,31
+
+//SEQUENTIAL_LEVELS=1
+//patch=1,EE,207EE318,byte,31
+
+//RESTRICT_LEVELS=1
+//patch=1,EE,207EE32B,byte,31
+
+//Enable online lobby
+patch=1,EE,20443A73,word,6D6D6F43
+patch=1,EE,20443A77,word,43646E61
+patch=1,EE,20443A7B,word,65746E65
+patch=1,EE,20443A7F,word,00000072
+
+patch=1,EE,20443A88,word,43444D43
+patch=1,EE,20443A8C,word,52544E45
+
+patch=1,EE,20444D43,word,6D6D6F43
+patch=1,EE,20444D47,word,43646E61
+patch=1,EE,20444D4B,word,65746E65
+patch=1,EE,20444D4F,word,00000072
+
+patch=1,EE,20444D58,word,43444D43
+patch=1,EE,20444D5C,word,52544E45
+
+//0 = Offline; 1 = Online
+//patch=1,EE,20537F8D,byte,0
+
+//Mission Setup (Above code must be 1 or disabled)
+//patch=1,EE,20537F8E,byte,1
+
+//CHEATS!
+//Missions Completed
+patch=1,EE,2082D9C4,word,01010101
+
+//Headshots Ratings
+patch=1,EE,2082D9B4,word,000001F4
+patch=1,EE,2082D980,word,00000258
+
+//Knife kills 500
+patch=1,EE,2082D97C,word,000001F4
+
+//Grenade kills 500
+patch=1,EE,2082D988,word,000001F4
+
+//Non-Lethal 500
+patch=1,EE,2082D990,word,000001F4
+
+//800 kills
+patch=1,EE,2082D978,word,00000320
+
+//All objectives
+patch=1,EE,2082D9EC,word,FFFFFFFF
+patch=1,EE,2082D9F0,word,FFFFFFFF
+patch=1,EE,2082D9F4,word,FFFFFFFF
+patch=1,EE,2082D9F8,word,FFFFFFFF
