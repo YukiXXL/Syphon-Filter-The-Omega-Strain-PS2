@@ -49,5 +49,9 @@ patch=1,EE,204643FC,word,00000000
 //Open levels
 //patch=1,EE,20333910,extended,24020001
 
-//Team Ratings temporarily
-patch=1,EE,20A80B74,byte,9
+//Team Pars on available levels
+patch=1,EE,20A816C4,word,000001A4
+patch=1,EE,20A816E4,word,0000012C
+patch=1,EE,20A81704,word,000000B4
+patch=1,EE,20A81744,word,0000030C
+patch=1,EE,20A81764,word,000001A4
