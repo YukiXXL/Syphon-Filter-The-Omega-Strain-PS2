@@ -2,9 +2,6 @@ gametitle=Syphon Filter: The Omega Strain EU
 comment=by YukiXXL
 //UNCOMMENT (remove "//" before "patch") THE CHEATS YOU WAN'T TO ENABLE, COMMENT OR REMOVE THE ONES YOU WAN'T TO DISABLE.
 //Enable Online lobby.
-patch=1,EE,2034245C,word,24A50F00
-patch=1,EE,20342464,word,24C60F18
-
 patch=1,EE,202A350C,word,24A52230
 patch=1,EE,202A3514,word,24C62248
 
@@ -30,10 +27,10 @@ patch=1,EE,202c77f8,word,00000000
 //Different End-Game Status menu.
 patch=1,EE,2046b09c,word,00000000
 
-//CHEATS ! Gamehacking.org ( except for Team Ratings ).
-//Temporarily Team Ratings.
-patch=1,EE,20933F04,byte,9
+//value_codename
+patch=1,EE,20465B40,word,00000000
 
+//CHEATS ! Gamehacking.org ( except for Team Ratings ).
 //Open weapons
 //patch=1,EE,20338AFC,extended,00000000
 

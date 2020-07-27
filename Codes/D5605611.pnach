@@ -5,9 +5,6 @@ comment=by YukiXXL
 patch=1,EE,202A0244,word,24A5AEB0
 patch=1,EE,202A024C,word,24C6AEC8
 
-patch=1,EE,2033C47C,word,24A59A10
-patch=1,EE,20311058,word,AC258C48
-
 //Enable TEST button
 patch=1,EE,202A0998,word,00000000
 patch=1,EE,2051EEA8,byte,0
@@ -29,12 +26,12 @@ patch=1,EE,202BCD28,word,00000000
 //patch=1,EE,20456438,word,00000000
 
 //Different End-Game Status menu.
-patch=1,EE,2046241c,word,00000000
+patch=1,EE,2046241C,word,00000000
+
+//Enable value_codename
+patch=1,EE,2045E340,word,00000000
 
 //CHEATS ! Gamehacking.org ( except for Team Ratings ).
-//Temporarily Team Ratings.
-patch=1,EE,20A81734,byte,9
-
 //Open weapons
 //patch=1,EE,20332B5C,extended,00000000
 

@@ -50,8 +50,8 @@ patch=1,EE,204643FC,word,00000000
 //patch=1,EE,20333910,extended,24020001
 
 //Team Pars on available levels
-patch=1,EE,20A816C4,word,000001A4
-patch=1,EE,20A816E4,word,0000012C
-patch=1,EE,20A81704,word,000000B4
-patch=1,EE,20A81744,word,0000030C
-patch=1,EE,20A81764,word,000001A4
+patch=1,EE,20A816C4,word,00000190
+patch=1,EE,20A816E4,word,00000122
+patch=1,EE,20A81704,word,000000AA
+patch=1,EE,20A81744,word,000002EE
+patch=1,EE,20A81764,word,0000019A

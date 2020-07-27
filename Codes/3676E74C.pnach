@@ -1,0 +1,44 @@
+gametitle=Syphon Filter: The Omega Virus
+comment=YukiXXL
+
+//LAN
+patch=1,EE,202A5404,word,0200202d
+
+//Online Lobby
+patch=1,EE,202a4750,word,24a57e30
+patch=1,EE,202a4758,word,24c67e48
+
+//Mission Setup (and Begin Mission bypass)
+patch=1,EE,20297E34,word,00000000
+patch=1,EE,202AD190,word,00000000
+//Join Mission
+patch=1,EE,20299778,word,00000000
+
+//value_codename
+patch=1,EE,2046B1E0,word,00000000
+
+//Equipment Setup
+patch=1,EE,202C9618,word,00000000
+
+//All weapons
+patch=1,EE,2033ACBC,word,00000000
+
+//Open Levels
+patch=1,EE,2033B190,extended,24020001
+
+//All team pars
+patch=1,EE,208B6004,word,000001A3
+patch=1,EE,208B6024,word,0000012B
+patch=1,EE,208B6044,word,000000B3
+//Belarus 1 doesn't work. Make a save state and load it after enabling it.
+//patch=1,EE,208B6084,word,0000030B
+patch=1,EE,208B60A4,word,000001A3
+patch=1,EE,208B6104,word,00000383
+patch=1,EE,208B6184,word,0000021B
+patch=1,EE,208B61A4,word,000001DF
+patch=1,EE,208B6204,word,00000383
+
+//Play once for all objectives
+patch=1,EE,2033BCB8,extended,2401FFFF
+patch=1,EE,2033BCBC,extended,AC410084
+patch=1,EE,2033BCC8,extended,24020001
