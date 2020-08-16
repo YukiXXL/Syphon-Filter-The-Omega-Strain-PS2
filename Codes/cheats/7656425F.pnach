@@ -1,0 +1,22 @@
+gametitle=Jampack Winter 2003 (Mature)
+comment=by YukiXXL
+
+//Syphon Filter: The Omega Strain
+
+//E3_BUILD=1
+//patch=1,EE,20771EF3,byte,31
+
+//BOOT_FRONTEND=1
+patch=1,EE,207720A9,byte,31
+
+//BOOT_INVULNERABLE=1
+patch=1,EE,207720D0,byte,31
+
+//USE_VALID_LEVELS=1
+//patch=1,EE,20771FBC,byte,31
+
+//SEQUENTIAL_LEVELS=1
+//patch=1,EE,20771F08,byte,31
+
+//RESTRICT_LEVELS=1
+//patch=1,EE,20771F1B,byte,31
