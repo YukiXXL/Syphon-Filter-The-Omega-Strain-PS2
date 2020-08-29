@@ -5,8 +5,11 @@ comment=by YukiXXL
 //patch=1,EE,2028B174,word,24C6FA38
 
 //LAN button
-patch=1,EE,2028B8FC,word,00000000
+patch=1,EE,2028B8F8,word,8C2456B8
 patch=1,EE,204C8658,byte,0
+
+//Zeus files
+patch=1,EE,202838FC,word,8C245380
 
 //Mission Setup
 patch=1,EE,2028162C,word,00000000
@@ -19,14 +22,27 @@ patch=1,EE,202ABF18,word,00000000
 //value_codename
 patch=1,EE,2042A160,word,00000000
 
-//SCORES
-patch=1,EE,2034A6F0,word,00000000
+//Buddy climb
+patch=1,EE,2016C2F8,word,00000000
 
-//patch=1,EE,2042F4BC,word,00000000
+//Quickchat
+patch=1,EE,20232DB0,word,00000000
+
+//SCORES
+patch=1,EE,20343530,word,00000000
+patch=1,EE,20343BE8,word,00000000
+patch=1,EE,2034A6F0,word,00000000
+patch=1,EE,2042F4BC,word,00000000
+//EndGame
+patch=1,EE,204303F4,word,00000000
+patch=1,EE,204305D4,word,00000000
 
 //CHEATS
 //Open Weapons
-//patch=1,EE,20311FCC,extended,00000000
+//patch=1,EE,20311FCC,extended,24020001
+
+//Open levels
+//patch=1,EE,203124A0,extended,24020001
 
 //Team Pars for all available levels
 patch=1,EE,209881C4,word,0000019A

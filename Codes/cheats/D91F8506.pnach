@@ -20,25 +20,30 @@ patch=1,EE,207EE240,byte,31
 //patch=1,EE,207EE08B,byte,31
 
 //Enable online lobby
-patch=1,EE,2034EFE4,word,24A54C50
-patch=1,EE,2034EFEC,word,24C64C68
-
-patch=1,EE,2033FA6C,word,24A53980
-patch=1,EE,2033FA74,word,24C63998
+//patch=1,EE,2033FA6C,word,24A53980
+//patch=1,EE,2033FA74,word,24C63998
 
 //Enable LAN button
-patch=1,EE,20340064,word,0060802d
+patch=1,EE,20340058,word,8C2478E8
 patch=1,EE,204E5D18,byte,0
 
 //0 = Offline; 1 = Online
 //patch=1,EE,20537C8D,byte,0
 
 //Enable Mission Setup
-patch=1,EE,20338e50,word,00000000
-patch=1,EE,20343aa4,word,00000000
+patch=1,EE,20338E50,word,00000000
+//patch=1,EE,20343AA4,word,00000000
 //Enable Join Mission
-patch=1,EE,20339fa8,word,00000000
-//patch=1,EE,20338f88,word,00000000
+patch=1,EE,20339FA4,word,8C247698
+
+//Quickchat
+patch=1,EE,202F0F70,word,00000000
+
+//Buddy climb
+patch=1,EE,20240788,word,00000000
+
+//EqSetup
+patch=1,EE,2035B9D0,word,00000000
 
 //CHEATS!
 //Missions Completed
