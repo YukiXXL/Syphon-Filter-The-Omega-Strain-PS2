@@ -8,4 +8,6 @@ Since it would be illegal as what they would say for sharing ROMs, I cannot post
 
 Demo version: https://archive.org/download/redumpSonyPlaystation2UsaOther2018Aug01/Syphon%20Filter%20-%20The%20Omega%20Strain%20%28USA%29%20%28Demo%29.7z
 
+Public Beta 1: https://mega.nz/file/6dwjxKSR#vyL7Fjc2SzTbB7HyL61F2EIUV0iDewBHX7RnnfQ3DzI
+
 Public Beta 2: https://archive.org/details/SyphonFilterTheOmegaStrain20040413
