@@ -1,8 +1,8 @@
 gametitle=Syphon Filter: The Omega Strain Public Beta 2
 comment=by YukiXXL
 //Enable online lobby
-//patch=1,EE,2029F914,word,24A5ACD0
-//patch=1,EE,2029F91C,word,24C6ACE8
+patch=1,EE,2029F914,word,24A5ACD0
+patch=1,EE,2029F91C,word,24C6ACE8
 
 //Enable TEST button
 patch=1,EE,202A0064,word,8C24B928
@@ -37,25 +37,10 @@ patch=1,EE,2045EEA0,word,00000000
 
 //CHEATS!
 //Open weapons
-//patch=1,EE,2033343C,extended,24020001
+patch=1,EE,2033343C,extended,24020001
 
 //Double armor
-//patch=1,EE,2048A0C8,extended,000001F4
+patch=1,EE,2048A0C8,extended,000001F4
 
 //Stop timer
 //patch=1,EE,2023A944,extended,24003634
-
-//Play once for all objectives
-//patch=1,EE,20334438,extended,2401FFFF
-//patch=1,EE,2033443C,extended,AC410084
-//patch=1,EE,20334448,extended,24020001
-
-//Open levels
-//patch=1,EE,20333910,extended,24020001
-
-//Team Pars on available levels
-patch=1,EE,20A816C4,word,00000190
-patch=1,EE,20A816E4,word,00000122
-patch=1,EE,20A81704,word,000000AA
-patch=1,EE,20A81744,word,000002EE
-patch=1,EE,20A81764,word,0000019A
