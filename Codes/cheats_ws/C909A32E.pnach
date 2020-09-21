@@ -15,4 +15,4 @@ patch=1,EE,00369594,word,E603007C
 
 //HUD fix
 //patch=1,EE,003693CC,word,00000000
-//patch=1,EE,003693D4,word,3C033f40
+//patch=1,EE,003693D4,word,3C033F40
