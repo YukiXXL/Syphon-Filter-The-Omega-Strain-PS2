@@ -1,1 +1,1 @@
-The ActionReplay.
+The ActionReplay MAX V3.
