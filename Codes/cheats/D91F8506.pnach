@@ -44,3 +44,6 @@ patch=1,EE,20240788,word,00000000
 
 //EqSetup
 patch=1,EE,2035B9D0,word,00000000
+
+//Select any mission
+patch=1,EE,20295728,word,00000000
