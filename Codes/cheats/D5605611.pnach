@@ -49,3 +49,7 @@ patch=1,EE,2048A238,extended,000001F4
 
 //Freeze Timer
 //patch=1,EE,20244FE4,extended,24003634
+
+//Select any mission
+patch=1,EE,20295728,word,00000000
+
